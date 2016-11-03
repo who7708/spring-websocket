@@ -6,19 +6,19 @@ public class WebSocketClient {
 	private WebSocketSession socketSession;
 	private String nickName;
 	private String clientIp;
-	
+
 	public WebSocketSession getSocketSession() {
 		return socketSession;
 	}
-	
+
 	public void setSocketSession(WebSocketSession socketSession) {
 		this.socketSession = socketSession;
 	}
-	
+
 	public String getNickName() {
 		return nickName;
 	}
-	
+
 	public void setNickName(String nickName) {
 		this.nickName = nickName;
 	}
